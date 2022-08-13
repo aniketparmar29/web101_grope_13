@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up Page</title>
+
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        #container{
+            
+            width: 30vw;
+            height: 72vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 20px;
+            margin:100px auto;
+            text-align: center;
+            background-color: rgb(72,201,176);
+            padding: 30px;
+            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        }
+        button{
+            border: none;
+            padding: 20px;
+            width: 80%;
+            color: white;
+            background-color: rgb(23,165,137);
+            font-size: large;
+            cursor: pointer;
+            font-weight: 200px;
+            letter-spacing: 3px;
+            text-transform: uppercase;
+        }
+        h1{
+            margin:30px 0;
+            color: white;
+            font-weight: 100;
+            letter-spacing: 2px;
+            
+        }
+        input{
+            padding: 20px;
+            width: 80%;
+            border: none;
+            font-size: large;
+            background-color: rgb(242,242,242);
+        }
+        
+
+    </style>
+</head>
+
+<body>
+
+    <div id="container">
+        <h1>- Visitor -</h1>
+
+        <input type="text" placeholder="FullName">
+        <input type="text" placeholder="Email">
+        <input type="text" placeholder="Organisation">
+
+        <button>Sign Up</button>
+        <button>Return</button>
+    </div>
+</body>
+</html>
